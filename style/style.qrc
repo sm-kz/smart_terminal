@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/style">
+        <file>banna.qss</file>
+        <file>videoplayer.qss</file>
+        <file>musicplayer.qss</file>
+        <file>gestureDetect.qss</file>
+        <file>mainWidget.qss</file>
+        <file>sqlClock.qss</file>
+        <file>opencv.qss</file>
+        <file>facedetect.qss</file>
+        <file>videoMonitor.qss</file>
+    </qresource>
+</RCC>

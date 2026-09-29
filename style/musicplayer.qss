@@ -1,0 +1,115 @@
+MusicPlayer, MusicPlayer QWidget {
+    background: #25242a;
+    color: white;
+}
+
+QLabel#musicplayer-welcome-label {
+    color: skyblue;
+    font-size: 26px;
+}
+
+MusicPlayer QListWidget {
+    border-image: url(:/musicplayer/image/mask.png);
+    background-color: transparent;
+    color: white;
+    font-size: 15px;
+    border: none;
+}
+
+MusicPlayer QListWidget:item {
+    background: transparent;
+    height: 60px;
+}
+
+MusicPlayer QListWidget:item:selected {
+    color: #5edcf3;
+    background: transparent;
+}
+
+MusicPlayer QListWidget:item:hover {
+    color: #5edcf3;
+    background: transparent;
+    border: none
+}
+
+QPushButton#musicplayer-play-button {
+    border-image: url(:/musicplayer/image/btn_play1.png);
+}
+
+QPushButton#musicplayer-play-button:hover {
+    border-image: url(:/musicplayer/image/btn_play2.png);
+}
+
+QPushButton#musicplayer-play-button:checked {
+    border-image: url(:/musicplayer/image/btn_pause1.png);
+}
+
+QPushButton#musicplayer-play-button:checked:hover {
+    border-image: url(:/musicplayer/image/btn_pause2.png);
+}
+
+QPushButton#musicplayer-prev-button {
+    border-image: url(:/musicplayer/image/btn_previous1.png);
+}
+
+QPushButton#musicplayer-prev-button:hover {
+    border-image: url(:/musicplayer/image/btn_previous2.png);
+}
+
+QPushButton#musicplayer-next-button {
+    border-image: url(:/musicplayer/image/btn_next1.png);
+}
+
+QPushButton#musicplayer-next-button:hover {
+    border-image: url(:/musicplayer/image/btn_next2.png);
+}
+
+QPushButton#musicplayer-favor-button {
+    border-image: url(:/musicplayer/image/btn_favorite_no.png);
+}
+
+QPushButton#musicplayer-favor-button:checked {
+    border-image: url(:/musicplayer/image/btn_favorite_yes.png);
+}
+
+QPushButton#musicplayer-mode-button {
+    border-image: url(:/musicplayer/image/btn_listcircle1.png);
+}
+
+QPushButton#musicplayer-mode-button:hover {
+    border-image: url(:/musicplayer/image/btn_listcircle2.png);
+}
+
+QPushButton#musicplayer-list-button {
+    border-image: url(:/musicplayer/image/btn_menu1.png);
+}
+
+QPushButton#musicplayer-list-button:hover {
+    border-image: url(:/musicplayer/image/btn_menu2.png);
+}
+
+QPushButton#musicplayer-volume-button {
+    border-image: url(:/musicplayer/image/btn_volume1.png);
+}
+
+QPushButton#musicplayer-volume-button:hover {
+    border-image: url(:/musicplayer/image/btn_volume2.png);
+}
+
+MusicPlayer QSlider:groove {
+    border: none;
+    background: #555555;
+    height: 6px;
+    border-radius: 3px;
+}
+
+MusicPlayer QSlider:handle {
+    border-image: url(:/musicplayer/image/handle.png);
+    height: 16px;
+    width: 16px;
+    margin: -5px 0px;
+}
+
+MusicPlayer QSlider:sub-page {
+    border-image: url(:/musicplayer/image/sub-page.png);
+}

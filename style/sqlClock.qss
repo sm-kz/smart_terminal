@@ -1,0 +1,133 @@
+SqlClock {
+    background-color: #E9EDF2;
+}
+
+SqlClock QListWidget#alarm-list {
+    background-color: #F4F6F8;
+    border: 1px solid #C8D0D9;
+    border-radius: 10px;
+    padding: 6px;
+}
+
+SqlClock QListWidget#alarm-list::item {
+    background-color: #FFFFFF;
+    border: 1px solid #D5DCE3;
+    border-radius: 8px;
+    margin: 0px;
+}
+
+SqlClock QListWidget#alarm-list::item:hover {
+    background-color: #EDF3F8;
+    border-color: #B8C7D5;
+}
+
+SqlClock QListWidget#alarm-list::item:hover:selected {
+    background-color: #DCEAF6;
+    border: 2px solid #3276B1;
+}
+
+SqlClock QWidget#alarm-item {
+    background-color: transparent;
+}
+
+SqlClock QLable#alarm-time {
+    background-color: transparent;
+    color: #34414E;
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 14px;
+}
+
+SqlClock QWidget#alarm-bottom {
+    background-color: #DDE3EA;
+    border-top: 1px solid #C5CDD6;
+}
+
+SqlClock QPushButton#alarm-add,
+SqlClock QPushButton#alarm-delete {
+    background-color: #536273;
+    color: #F5F7FA;
+    border: 2px solid #465463;
+    border-radius: 9px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+SqlClock QPushButton#alarm-add:hover,
+SqlClock QPushButton#alarm-delete:hover {
+    background-color: #627487;
+}
+
+SqlClock QPushButton#alarm-add:pressed,
+SqlClock QPushButton#alarm-delete:pressed {
+    background-color: #3F4C59;
+}
+
+SqlClock QPushButton#alarm-add {
+    background-color: #3276B1;
+    border-color: #28679D;
+    margin-right: 5px;
+}
+
+SqlClock QPushButton#alarm-add:hover {
+    background-color: #3E86C4;
+}
+
+SqlClock QPushButton#alarm-add:pressed {
+    background-color: #28679D;
+}
+
+SqlClock QPushButton#alarm-delete {
+    background-color: #68727D;
+    border-color: #59636D;
+    margin-left: 5px;
+}
+
+SqlClock QPushButton#alarm-delete:hover {
+    background-color: #A65A5A;
+    border-color: #914B4B;
+}
+
+QDialog#alarm-dialog {
+    background-color: #F1F4F7;
+    border: 1px solid #BCC6D0;
+    border-radius: 10px;
+}
+
+QDialog#alarm-dialog QPushButton#alarm-confirm {
+    background-color: #3276B1;
+    color: white;
+    border: 2px solid #28679D;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px 10px;
+    margin-right: 3px;
+}
+
+QDialog#alarm-dialog QPushButton#alarm-confirm:hover {
+    background-color: #3E86C4;
+}
+
+QDialog#alarm-dialog QPushButton#alarm-confirm:pressed {
+    background-color: #28679D;
+}
+
+QDialog#alarm-dialog QPushButton#alarm-cancel {
+    background-color: #E2E6EA;
+    color: #3E4852;
+    border: 1px solid #BAC2CA;
+    border-radius: 8px;
+    font-size: 15px;
+    padding: 5px 10px;
+    margin-left: 3px;
+}
+
+QDialog#alarm-dialog QPushButton#alarm-cancel:hover {
+    background-color: #D5DAE0;
+}
+
+QDialog#alarm-dialog QPushButton#alarm-cancel:pressed {
+    background-color: #C7CDD3;
+}

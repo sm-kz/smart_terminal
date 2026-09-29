@@ -1,0 +1,32 @@
+MainWidget {
+    background-color: #E9EDF2;
+}
+
+MainWidget QListWidget {
+    background-color: #2F3A46;
+    border: none;
+}
+
+MainWidget QListWidget::item {
+    background-color: transparent;
+    color: #DCE2E8;
+    border: none;
+    border-radius: 6px;
+    padding: 6px, 4px;
+    margin: 3px, 6px;
+}
+
+MainWidget QListWidget::item:hover {
+    background-color: #3D4A58;
+    color: #FFFFFF;
+}
+
+MainWidget QListWidget::item:selected {
+    background-color: #3276B1;
+    color: #FFFFFF;
+}
+
+MainWidget QListWidget::item:selected:hover {
+    background-color: #3E86C4;
+    color: #FFFFFF;
+}

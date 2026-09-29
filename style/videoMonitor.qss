@@ -1,0 +1,83 @@
+VideoMonitor {
+    background-color: #E9EDF2;
+}
+
+VideoMonitor QLabel#video-display {
+    background-color: #20262D;
+    color: #AEB8C2;
+    border: 2px solid #B8C2CC;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+VideoMonitor QCheckBox {
+    color: #8F7D8A;
+    font-size: 14px;
+    font-weight: bold;
+    spacing: 7px;
+}
+
+VideoMonitor QCheckBox::indicator {
+    width: 20px;
+    height: 20px;
+    background-color: #FFFFFF;
+    border: 2px solid #8D9BA8;
+    border-radius: 5px;
+}
+
+VideoMonitor QCheckBox::indicator:hover {
+    border: 2px solid #3276B1;
+}
+
+VideoMonitor QCheckBox::indicator:checked {
+    background-color: #3276B1;
+    border: 2px solid #28679D;
+}
+
+VideoMonitor QCheckBox:disabled {
+    color: #8E979F;
+}
+
+VideoMonitor QCheckBox::indicator:disabled {
+    background-color: #D6DCE2;
+    border-color: #B4BCC4;
+}
+
+VideoMonitor QPushButton#start-button {
+    background-color: #536273;
+    color: #FFFFFF;
+    border: 2px solid #465463;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 6px 12px;
+}
+
+VideoMonitor QPushButton#start-button:hover {
+    background-color: #627487;
+    border-color: #536779;
+}
+
+VideoMonitor QPushButton#start-button:pressed {
+    background-color: #3F4C59;
+}
+
+VideoMonitor QPushButton#start-button:checked {
+    background-color: #3276B1;
+    border-color: #28679D;
+}
+
+VideoMonitor QPushButton#start-button:checked:hover {
+    background-color: #3E86C4;
+}
+
+VideoMonitor QPushButton#start-button:checked:pressed {
+    background-color: #28679D;
+}
+
+VideoMonitor QPushButton#start-button:disabled {
+    background-color: #B8C0C8;
+    border-color: #AAB2BA;
+    color: #747D86;
+}

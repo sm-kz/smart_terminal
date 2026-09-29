@@ -1,0 +1,24 @@
+<RCC>
+    <qresource prefix="/musicplayer/image">
+        <file>btn_favorite_no.png</file>
+        <file>btn_favorite_yes.png</file>
+        <file>btn_listcircle1.png</file>
+        <file>btn_listcircle2.png</file>
+        <file>btn_menu1.png</file>
+        <file>btn_menu2.png</file>
+        <file>btn_next1.png</file>
+        <file>btn_next2.png</file>
+        <file>btn_pause1.png</file>
+        <file>btn_pause2.png</file>
+        <file>btn_play1.png</file>
+        <file>btn_play2.png</file>
+        <file>btn_previous1.png</file>
+        <file>btn_previous2.png</file>
+        <file>btn_volume1.png</file>
+        <file>btn_volume2.png</file>
+        <file>cd.png</file>
+        <file>handle.png</file>
+        <file>mask.png</file>
+        <file>sub-page.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,9 @@
+Banna QPushButton {
+    background-color: #55aaff;
+    border-radius: 15px;
+}
+
+Banna QPushButton:checked {
+    background-color: #1a5bce;
+    border-radius: 15px;
+}

@@ -1,0 +1,102 @@
+FaceDetect QLabel#face-display {
+    background-color: #20262D;
+    border: 2px solid #B8C2CC;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+FaceDetect QWidget#face-side {
+    background-color: #DDE3EA;
+    border: 1px solid #C5CDD6;
+    border-radius: 10px;
+}
+
+FaceDetect QLabel#face-photo {
+    background-color: #F4F6F8;
+    border: 2px solid #B8C2CC;
+    border-radius: 8px;
+    padding: 3px;
+}
+
+FaceDetect QComboBox#camera-select {
+    background-color: #FFFFFF;
+    color: #34414E;
+    border: 1px solid #AEB8C2;
+    border-radius: 7px;
+    padding: 5px 8px;
+    font-size: 14px;
+    min-height: 26px;
+}
+
+FaceDetect QComboBox#camera-select:hover {
+    border: 1px solid #3276B1;
+}
+
+FaceDetect QComboBox#camera-select:focus {
+    border: 2px solid #3276B1;
+}
+
+FaceDetect QComboBox#camera-select::drop-down {
+    width: 28px;
+    border: none;
+    border-left: 1px solid #C5CDD6;
+}
+
+FaceDetect QComboBox#camera-select QAbstractItemView {
+    background-color: #FFFFFF;
+    color: #34414E;
+    border: 1px solid #AEB8C2;
+    selection-background-color: #3276B1;
+    selection-color: #FFFFFF;
+    outline: none;
+}
+
+FaceDetect QPushButton {
+    background-color: #536273;
+    color: #F5F7FA;
+    border: 2px solid #465463;
+    border-radius: 8px;
+    padding: 5px 8px;
+    font-size: 14px;
+    font-weight: bold;
+    min-height: 30px;
+}
+
+FaceDetect QPushButton:hover {
+    background-color: #627487;
+    border-color: #536779;
+}
+
+FaceDetect QPushButton:pressed {
+    background-color: #3F4C59;
+}
+
+FaceDetect QPushButton#preview-button:checked {
+    background-color: #3276B1;
+    border-color: #28679D;
+    color: #FFFFFF;
+}
+
+FaceDetect QPushButton#preview-button:checked:hover {
+    background-color: #3E86C4;
+}
+
+FaceDetect QPushButton#detect-button:checked {
+    background-color: #3276B1;
+    border-color: #28679D;
+    color: #FFFFFF;
+}
+
+FaceDetect QPushButton#detect-button:checked:hover {
+    background-color: #3E86C4;
+}
+
+FaceDetect QPushButton#capture-button {
+    background-color: #536273;
+}
+
+FaceDetect QPushButton:disabled {
+    background-color: #B8C0C8;
+    border-color: #AAB2BA;
+    color: #747D86;
+}

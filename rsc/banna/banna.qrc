@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/banna/image">
+        <file>ren.jpg</file>
+        <file>zelda-800x480.png</file>
+    </qresource>
+    <qresource prefix="/"/>
+</RCC>

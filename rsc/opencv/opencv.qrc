@@ -1,0 +1,21 @@
+<RCC>
+    <qresource prefix="/">
+        <file>haarcascades/haarcascade_eye.xml</file>
+        <file>haarcascades/haarcascade_eye_tree_eyeglasses.xml</file>
+        <file>haarcascades/haarcascade_frontalcatface.xml</file>
+        <file>haarcascades/haarcascade_frontalcatface_extended.xml</file>
+        <file>haarcascades/haarcascade_frontalface_alt.xml</file>
+        <file>haarcascades/haarcascade_frontalface_alt2.xml</file>
+        <file>haarcascades/haarcascade_frontalface_alt_tree.xml</file>
+        <file>haarcascades/haarcascade_frontalface_default.xml</file>
+        <file>haarcascades/haarcascade_fullbody.xml</file>
+        <file>haarcascades/haarcascade_lefteye_2splits.xml</file>
+        <file>haarcascades/haarcascade_licence_plate_rus_16stages.xml</file>
+        <file>haarcascades/haarcascade_lowerbody.xml</file>
+        <file>haarcascades/haarcascade_profileface.xml</file>
+        <file>haarcascades/haarcascade_righteye_2splits.xml</file>
+        <file>haarcascades/haarcascade_russian_plate_number.xml</file>
+        <file>haarcascades/haarcascade_smile.xml</file>
+        <file>haarcascades/haarcascade_upperbody.xml</file>
+    </qresource>
+</RCC>

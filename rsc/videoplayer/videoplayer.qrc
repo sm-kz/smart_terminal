@@ -1,0 +1,22 @@
+<RCC>
+    <qresource prefix="/videoplayer/image">
+        <file>add_page.png</file>
+        <file>bg.png</file>
+        <file>btn_fullscreen1.png</file>
+        <file>btn_fullscreen2.png</file>
+        <file>btn_next1.png</file>
+        <file>btn_next2.png</file>
+        <file>btn_pause1.png</file>
+        <file>btn_pause2.png</file>
+        <file>btn_play1.png</file>
+        <file>btn_play2.png</file>
+        <file>btn_screen1.png</file>
+        <file>btn_screen2.png</file>
+        <file>btn_volumedown1.png</file>
+        <file>btn_volumedown2.png</file>
+        <file>btn_volumeup1.png</file>
+        <file>btn_volumeup2.png</file>
+        <file>handle.png</file>
+        <file>mask.png</file>
+    </qresource>
+</RCC>

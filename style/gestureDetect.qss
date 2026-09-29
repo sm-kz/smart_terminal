@@ -1,0 +1,46 @@
+QWidget#gesturedetect-display-widget {
+    background-color: #E9EDF2;
+    border: 1px solid #C8D0D9;
+    border-radius: 12px;
+}
+
+QWidget#gesturedetect-control-widget {
+    background-color: #DDE3EA;
+    border-left: 1px solid #C3CBD5;
+    border-radius: 12px;
+}
+
+GestureDetect QPushButton {
+    background-color: #536273;
+    color: #F5F7FA;
+    border: 2px solid #465463;
+    border-radius: 10px;
+    padding: 2px 6px;
+    margin: 4px 10px;
+    font-size: 16px;
+}
+
+GestureDetect QPushButton:hover {
+    background-color: #627487;
+    border-color: #536779;
+}
+
+GestureDetect QPushButton:pressed {
+    background-color: #3F4C59;
+}
+
+GestureDetect QPushButton:checked {
+    background-color: #3276B1;
+    border-color: #245A89;
+    color: white;
+}
+
+GestureDetect QPushButton:checked:hover {
+    background-color: #3E86C4;
+}
+
+GestureDetect QPushButton:disabled {
+    background-color: #B8C0C8;
+    border-color: #AAB2BA;
+    color: #747D86;
+}

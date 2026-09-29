@@ -1,0 +1,101 @@
+Opencv {
+    background-color: #E9EDF2;
+}
+
+Opencv QLabel {
+    background-color: #9F7F8F;
+    border: 2px solid #B8C2CC;
+    border-radius: 8px;
+    padding: 3px;
+}
+
+Opencv QPushButton {
+    background-color: #3276B1;
+    color: white;
+    border: 2px solid #28679D;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 12px;
+}
+
+Opencv QPushButton:hover {
+    background-color: #3E86C4;
+}
+
+Opencv QPushButton:pressed {
+    background-color: #28679D;
+}
+
+FuncPanel {
+    background-color: #F4F6F8;
+    border: 1px solid #C5CDD6;
+    border-radius: 8px;
+}
+
+FuncPanel QLabel {
+    background-color: #536273;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 3px 5px;
+}
+
+FuncPanel QListWidget {
+    background-color: #FFFFFF;
+    border: 1px solid #D1D8DF;
+    border-radius: 6px;
+    outline: none;
+    padding: 2px;
+}
+
+FuncPanel QListWidget::item {
+    background-color: transparent;
+    color: #34414E;
+    border: none;
+    border-radius: 4px;
+    padding: 3px 2px;
+}
+
+FuncPanel QListWidget::item:hover {
+    background-color: #E6EEF5;
+    color: #253746;
+}
+
+FuncPanel QListWidget::item:selected {
+    background-color: #3276B1;
+    color: white;
+}
+
+FuncPanel QListWidget::item:selected:!active {
+    background-color: #7896B0;
+    color: white;
+}
+
+FuncPanel QScrollBar:vertical {
+    background: transparent;
+    width: 14px;
+    border-radius: 7px;
+}
+
+FuncPanel QScrollBar::handle:vertical {
+    background: #A8B3BE;
+    border-radius: 7px;
+    min-height: 15px;
+}
+
+FuncPanel QScrollBar::handle:vertical:hover {
+    background: #7D8D9D;
+}
+
+FuncPanel QScrollBar::add-line:vertical,
+FuncPanel QScrollBar::sub-line:vertical {
+    height: 0px;
+}
+
+FuncPanel QScrollBar::add-page:vertical,
+FuncPanel QScrollBar::sub-page:vertical {
+    background: transparent;
+}

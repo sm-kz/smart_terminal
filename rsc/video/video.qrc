@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/video">
+        <file>green.mkv</file>
+        <file>Van Gogh's Starry Night.mp4</file>
+    </qresource>
+</RCC>
